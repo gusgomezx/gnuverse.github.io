@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+	<meta name="keywords" content="software libre, open source, código abierto, GNU, Linux, programación, desarrollo software, herramientas libres, licencias libres, tecnología libre, open source tools, software colaborativo, comunidad software libre">
+    <meta name ="author" content="Gus Gómez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GNUverse blog</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            display: flex;
+            flex: 1;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        article {
+            flex: 3;
+            background-color: white;
+            padding: 20px;
+            display:flex;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-height:250px;
+        }
+        
+        .miniatura {
+        	margin-right:15px;
+        	display:flex;
+        	align-items:center;
+        }
+        
+        .content-text {
+        	display:flex;
+        	align-items:center;
+        }
+   
+        aside {
+            flex: 1;
+            background-color: #f4f4f4;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        
+        .advertisement {
+            background-color: #ffcc00;
+            padding: 20px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .advertisement a {
+        	display:block;
+        	padding-top:10px;
+        }
+        
+        @media (max-width: 768px) {
+    		main {
+        		flex-direction: column;
+    		}
+		}
+		
+		@media (max-width: 511px) {
+			article{
+				max-height:350px;
+			}
+		}
+		
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>GNUverse blog</h1>
+     <p>Un espacio para el software libre</p>
+</header>
+
+<main>
+    <article>
+    	<div class="miniatura">
+    		<img src="img/heckert_gnu.small.png" width="100px" height="100px">
+    	</div>
+    	<div class="content-text">
+    		<div class = "text">
+        		<h2>¿Qué es el software libre?</h2>
+        		<p>El software libre es más que solo una licencia; es una filosofía que promueve la libertad de los usuarios para ejecutar, estudiar, modificar y distribuir software. En este artículo, exploraremos cómo el software libre ha cambiado el mundo de la tecnología y cómo se distingue del software propietario.</p>
+         		<a href="primer-post.html" class="read-more">Leer más...</a>
+         	</div>
+         </div>
+    </article>
+
+    <!-- Aside para publicidad -->
+    <aside>
+        <div class="advertisement">
+        	
+           ¡Mejores Recomendaciones de Productos en Oferta!
+           50% de descuento 
+            <a href="https://s.click.aliexpress.com/e/_oC1TZI5"><img width="200px" src="img/cachucha-emacs/S18c0a0419a1744bca6d996bc6a68d116x.jpg"></a>
+        </div>
+    </aside>
+</main>
+
+<footer>
+     <p>© 2025 Gnuverse Blog | Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
